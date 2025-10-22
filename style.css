@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* ===== CSS VARIABLES ===== */
 :root {
     --primary: #2563eb;
     --primary-dark: #1d4ed8;
@@ -15,6 +16,7 @@
     --text-secondary: #cbd5e1;
 }
 
+/* ===== BASE STYLES ===== */
 body {
     font-family: 'Inter', 'Arial', sans-serif;
     line-height: 1.6;
@@ -29,7 +31,7 @@ body {
     padding: 0 20px;
 }
 
-/* Навигация */
+/* ===== HEADER & NAVIGATION ===== */
 nav {
     background: rgba(30, 41, 59, 0.95);
     backdrop-filter: blur(10px);
@@ -47,14 +49,29 @@ nav .container {
     align-items: center;
 }
 
+/* Анимированный логотип с градиентом */
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--primary), var(--accent));
+    background: linear-gradient(45deg, var(--primary), var(--accent));
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: pulseGradient 2s ease-in-out infinite alternate;
 }
 
+@keyframes pulseGradient {
+    from {
+        background-position: 0% 50%;
+        opacity: 0.8;
+    }
+    to {
+        background-position: 100% 50%;
+        opacity: 1;
+    }
+}
+
+/* Навигационное меню */
 nav ul {
     display: flex;
     list-style: none;
@@ -73,6 +90,7 @@ nav a:hover {
     color: var(--text);
 }
 
+/* Подчеркивание при наведении */
 nav a::after {
     content: '';
     position: absolute;
@@ -88,7 +106,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Герой секция */
+/* ===== HERO SECTION ===== */
 #hero {
     background: linear-gradient(135deg, var(--background) 0%, var(--surface) 100%);
     padding: 180px 0 120px;
@@ -97,6 +115,7 @@ nav a:hover::after {
     overflow: hidden;
 }
 
+/* Градиентный фон для герой секции */
 #hero::before {
     content: '';
     position: absolute;
@@ -143,7 +162,7 @@ nav a:hover::after {
     border: 1px solid rgba(37, 99, 235, 0.3);
 }
 
-/* Секции */
+/* ===== SECTIONS COMMON STYLES ===== */
 section {
     padding: 100px 0;
 }
@@ -158,7 +177,7 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-/* Обо мне */
+/* ===== ABOUT/EXPERIENCE SECTION ===== */
 .about-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -167,25 +186,54 @@ section {
     margin: 0 auto;
 }
 
+/* Карточка опыта работы */
 .experience-card {
     background: var(--surface);
     padding: 2rem;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Анимированный градиентный эффект */
+.experience-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.1), transparent);
+    transition: left 0.6s ease;
 }
 
 .experience-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(37, 99, 235, 0.2);
+    border-color: rgba(37, 99, 235, 0.3);
 }
 
+.experience-card:hover::before {
+    left: 100%;
+}
+
+/* Заголовок с продолжительностью опыта */
 .exp-duration {
     color: var(--accent);
     font-weight: 600;
     margin: 1rem 0;
+    transition: color 0.3s ease;
 }
 
+.experience-card:hover .exp-duration {
+    color: #60a5fa;
+}
+
+/* Контейнер для тегов навыков */
 .exp-skills {
     display: flex;
     gap: 0.5rem;
@@ -193,6 +241,7 @@ section {
     margin-top: 1rem;
 }
 
+/* Отдельный тег навыка */
 .skill-tag {
     background: rgba(37, 99, 235, 0.2);
     color: var(--primary);
@@ -200,19 +249,68 @@ section {
     border-radius: 12px;
     font-size: 0.8rem;
     border: 1px solid rgba(37, 99, 235, 0.3);
+    transition: all 0.3s ease;
 }
 
+.skill-tag:hover {
+    background: rgba(37, 99, 235, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.experience-card:hover .skill-tag {
+    animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+/* Секции компетенций и достижений */
 .competencies, .achievements {
     background: var(--surface);
     padding: 2rem;
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Анимированная верхняя полоса */
+.competencies::before, .achievements::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--primary));
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.competencies:hover, .achievements:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.competencies:hover::before, .achievements:hover::before {
+    transform: scaleX(1);
 }
 
 .competencies h4, .achievements h4 {
     color: var(--accent);
     margin-bottom: 1rem;
     font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.competencies:hover h4, .achievements:hover h4 {
+    color: #fbbf24;
+    transform: translateX(5px);
 }
 
 .competencies ul, .achievements ul {
@@ -224,9 +322,105 @@ section {
     padding: 0.5rem 0;
     color: var(--text-secondary);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 0;
 }
 
-/* Навыки */
+/* Анимированные маркеры списка */
+.competencies li::before, .achievements li::before {
+    content: '▸';
+    position: absolute;
+    left: -1rem;
+    color: var(--accent);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.competencies:hover li, .achievements:hover li {
+    color: var(--text);
+    padding-left: 1rem;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.competencies:hover li::before, .achievements:hover li::before {
+    opacity: 1;
+    left: 0;
+}
+
+/* ===== HEADHUNTER BUTTON STYLES ===== */
+/* Контейнер для заголовка и кнопки HH */
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+    animation: slideInUp 0.6s ease forwards;
+    animation-delay: 0.15s;
+}
+
+/* Кнопка HeadHunter с фирменными цветами */
+.hh-btn {
+    background: linear-gradient(135deg, #ff5e00, #ff8c00);
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 12px rgba(255, 94, 0, 0.3);
+    animation: slideInRight 0.6s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.hh-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 8px 20px rgba(255, 94, 0, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(135deg, #ff8c00, #ff5e00);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Анимация появления элементов в секции "Обо мне" */
+.experience-card, .competencies, .achievements {
+    animation: slideInUp 0.6s ease forwards;
+}
+
+.experience-card:nth-child(1) { animation-delay: 0.1s; }
+.competencies { animation-delay: 0.2s; }
+.achievements { animation-delay: 0.3s; }
+
+/* ===== SKILLS SECTION ===== */
 .skills-categories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -265,6 +459,7 @@ section {
     font-weight: 500;
 }
 
+/* Прогресс-бар навыков */
 .skill-level {
     width: 100px;
     height: 6px;
@@ -280,7 +475,7 @@ section {
     transition: width 1s ease;
 }
 
-/* Проекты */
+/* ===== PROJECTS SECTION ===== */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -350,6 +545,7 @@ section {
     gap: 1rem;
 }
 
+/* ===== BUTTON COMPONENTS ===== */
 .btn {
     padding: 0.8rem 1.5rem;
     border-radius: 8px;
@@ -382,7 +578,7 @@ section {
     transform: translateY(-2px);
 }
 
-/* Футер */
+/* ===== CONTACT & FOOTER ===== */
 footer {
     background: var(--surface);
     padding: 4rem 0;
@@ -431,7 +627,7 @@ footer {
     margin: 0.5rem 0;
 }
 
-/* Адаптивность */
+/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2.5rem;
@@ -465,5 +661,24 @@ footer {
     
     .section-title {
         font-size: 2rem;
+    }
+    
+    /* Адаптивность для кнопки HH */
+    .exp-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .hh-btn {
+        align-self: flex-start;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hh-btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 }
