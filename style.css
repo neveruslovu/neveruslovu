@@ -314,5 +314,39 @@ footer {
     position: relative;
     z-index: 1;
 }
+
+    .copy-btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.copy-btn:hover {
+    background: #2980b9;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email-link {
+    position: relative;
+}
+
+.email-link::after {
+    content: " (открывает почтовый клиент)";
+    font-size: 0.8em;
+    opacity: 0.8;
+}
 }
 
