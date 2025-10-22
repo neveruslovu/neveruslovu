@@ -18,5 +18,8 @@
 - 💼 Tg: [https://t.me/neveruslovu]
 - 🐙 GitHub: [https://github.com/neveruslovu]
 
+# 📝 Проекты
+- https://neveruslovu.github.io/neveruslovu/
+
 ---
 ⭐ Не забудьте поставить звезду репозиторию!
