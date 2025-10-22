@@ -303,4 +303,16 @@ footer h2 {
         font-size: 2rem;
         margin-bottom: 2rem;
     }
+    .social-links a {
+    display: inline-block; /* Делает всю область кликабельной */
+    min-width: 120px; /* Минимальная ширина для удобства клика */
+    text-align: center;
 }
+
+/* Убедитесь, что ссылки не перекрыты другими элементами */
+footer {
+    position: relative;
+    z-index: 1;
+}
+}
+
