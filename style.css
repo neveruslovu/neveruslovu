@@ -122,3 +122,31 @@ footer {
     margin: 0 1rem;
     text-decoration: none;
 }
+
+.about-content {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+}
+
+.skills-highlight, .achievements {
+    margin: 1.5rem 0;
+}
+
+.skills-highlight ul, .achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-highlight li, .achievements li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.summary {
+    background: #e8f4fc;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
