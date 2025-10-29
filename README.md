@@ -20,6 +20,7 @@
 
 # 📝 Проекты
 - https://neveruslovu.github.io/neveruslovu/
+- https://github.com/neveruslovu/game-trial
 
 ---
 ⭐ Не забудьте поставить звезду репозиторию!
