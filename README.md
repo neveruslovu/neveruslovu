@@ -70,7 +70,7 @@
   
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight)](https://github.com/neveruslovu/neveruslovu.github.io)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight)](https://github.com/neveruslovu/game-trial)
-
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight)](https://github.com/neveruslovu/dog_dating_project)
 </div>
 
 ## 🏆 GitHub трофеи
