@@ -140,7 +140,7 @@
 ## 📈 График активности
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=neveruslovu&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=neveruslovu&theme=tokyo-night&hide_border=true&area=true&bg_color=0D1117&color=3382ED&line=58A6FF&point=FFFFFF" alt="Activity Graph" />
 </div>
 
 ---
@@ -171,7 +171,7 @@
 <div align="center">
 
 ### 🐍 Мой вклад в GitHub
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" style="max-width: 100%;" />
 
 <br>
 
