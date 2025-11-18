@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=800&lines=Привет!+Я+Азимов+Акмаль;QA+Engineer+%F0%9F%94%8D+by+day;Developer+in+training+%F0%9F%9A%80+by+night;Bug+Hunter+%F0%9F%95%B5%EF%B8%8F+for+life;Turning+coffee+%E2%98%95+into+code+%F0%9F%92%BB)](https://git.io/typing-svg)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Азимов%20Акмаль&fontSize=80&animation=fadeIn&fontAlignY=38&desc=QA%20Engineer%20|%20Developer&descAlignY=51&descAlign=62" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Азимов%20Акмаль&fontSize=80&animation=fadeIn&fontAlignY=38&desc=QA%30Engineer%30|%20Developer&descAlignY=51&descAlign=62" />
 
 </div>
 
