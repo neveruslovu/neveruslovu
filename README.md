@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🚀 Азимов Акмаль | QA Engineer & Future Developer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Азимов%20Акмаль&fontSize=80&animation=fadeIn&fontAlignY=35&desc=QA%20Engineer%20|%20Developer&descAlignY=55" />
+
+# 🚀 QA Engineer & Future Developer
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=800&lines=Привет!+Я+Азимов+Акмаль;QA+Engineer+%F0%9F%94%8D+by+day;Developer+in+training+%F0%9F%9A%80+by+night;Bug+Hunter+%F0%9F%95%B5%EF%B8%8F+for+life;Turning+coffee+%E2%98%95+into+code+%F0%9F%92%BB)](https://git.io/typing-svg)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Азимов%20Акмаль&fontSize=80&animation=fadeIn&fontAlignY=38&desc=QA%20Engineer%20|%20Developer&descAlignY=51&descAlign=62" />
 
 </div>
 
@@ -31,7 +31,7 @@
 <td width="40%">
 
 <div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Working on code">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="350" alt="Working on code">
 </div>
 
 </td>
@@ -82,14 +82,9 @@
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=neveruslovu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </td>
 </tr>
-<tr>
-<td colspan="2">
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-</td>
-</tr>
 </table>
+<br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 ---
@@ -178,9 +173,13 @@
 ### 🐍 Мой вклад в GitHub
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
+<br>
+
 ### ⭐ Если вам понравилось моё портфолио, поставьте звездочку!
 Звездочки питают моего кодового монстра и делают его сильнее! 🌟
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer)
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
 
 </div>
