@@ -1,8 +1,10 @@
-# 🐶 Привет! Я Азимов Акмаль - QA Engineer & Future Developer 🚀
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=600&lines=QA+Engineer+%F0%9F%94%8D+by+day;Developer+in+training+%F0%9F%9A%80+by+night;Bug+Hunter+%F0%9F%95%B5%EF%B8%8F+for+life;Turning+coffee+%E2%98%95+into+code+%F0%9F%92%BB)](https://git.io/typing-svg)
+# 🚀 Азимов Акмаль | QA Engineer & Future Developer
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=800&lines=Привет!+Я+Азимов+Акмаль;QA+Engineer+%F0%9F%94%8D+by+day;Developer+in+training+%F0%9F%9A%80+by+night;Bug+Hunter+%F0%9F%95%B5%EF%B8%8F+for+life;Turning+coffee+%E2%98%95+into+code+%F0%9F%92%BB)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Азимов%20Акмаль&fontSize=80&animation=fadeIn&fontAlignY=38&desc=QA%20Engineer%20|%20Developer&descAlignY=51&descAlign=62" />
 
 </div>
 
@@ -10,9 +12,11 @@
 
 ## 🎯 Обо мне
 
-<div align="center">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Working on code">
-</div>
+<table>
+<tr>
+<td width="60%">
+
+### 🧙‍♂️ Краткая история
 
 Привет! Я - Азимов Акмаль, специалист по контролю качества с душой разработчика. Моя суперсила - находить баги там, где их никто не видит, и превращать рутинные процессы в автоматизированные шедевры. 🦸‍♂️
 
@@ -22,6 +26,17 @@
 - 💬 **Спросите меня о**: Python, PostgreSQL, тестировании и как найти баг за 30 секунд
 - 📫 **Связаться**: neveruslovu@mail.com (не стесняйтесь, я не кусаюсь! 🐶)
 - ⚡ **Fun fact**: Однажды я автоматизировал настолько хорошо, что мой робот-пылесос начал писать тесты. Почти.
+
+</td>
+<td width="40%">
+
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Working on code">
+</div>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -58,12 +73,23 @@
 ## 📊 Моя статистика на GitHub
 
 <div align="center">
+<table>
+<tr>
+<td width="50%">
 <img src="https://github-readme-stats.vercel.app/api?username=neveruslovu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+</td>
+<td width="50%">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=neveruslovu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
-
+</td>
+</tr>
+<tr>
+<td colspan="2">
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+</td>
+</tr>
+</table>
 </div>
 
 ---
@@ -72,17 +98,37 @@
 
 <div align="center">
 
-### 🌐 [Личный сайт](https://github.com/neveruslovu/neveruslovu.github.io)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight)](https://github.com/neveruslovu/neveruslovu.github.io)
-Мой уголок в интернете, где я делюсь своими мыслями и проектами.
-
-### 🎮 [Game Trial](https://github.com/neveruslovu/game-trial)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight)](https://github.com/neveruslovu/game-trial)
-Эксперименты в мире геймдева с Unity и C#.
-
-### 🐕 [Dog Dating Project](https://github.com/neveruslovu/dog_dating_project)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight)](https://github.com/neveruslovu/dog_dating_project)
-Уникальный платформер, где собаки находят свою любовь! 🐾
+<table>
+<tr>
+<td width="33%">
+<div align="center">
+<h3>🌐 Личный сайт</h3>
+<a href="https://github.com/neveruslovu/neveruslovu.github.io">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight" alt="Personal Website" />
+</a>
+<p>Мой уголок в интернете, где я делюсь своими мыслями и проектами.</p>
+</div>
+</td>
+<td width="33%">
+<div align="center">
+<h3>🎮 Game Trial</h3>
+<a href="https://github.com/neveruslovu/game-trial">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight" alt="Game Trial" />
+</a>
+<p>Эксперименты в мире геймдева с Unity и C#.</p>
+</div>
+</td>
+<td width="33%">
+<div align="center">
+<h3>🐕 Dog Dating</h3>
+<a href="https://github.com/neveruslovu/dog_dating_project">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight" alt="Dog Dating Project" />
+</a>
+<p>Уникальный платформер, где собаки находят свою любовь! 🐾</p>
+</div>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -132,9 +178,9 @@
 ### 🐍 Мой вклад в GitHub
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
-### ⭐ Если вам понравилось моё портфолио, поставьте звездочку! 
+### ⭐ Если вам понравилось моё портфолио, поставьте звездочку!
 Звездочки питают моего кодового монстра и делают его сильнее! 🌟
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer)
 
 </div>
