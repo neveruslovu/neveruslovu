@@ -170,6 +170,258 @@
 
 <div align="center">
 
+### 🐍 Интерактивная игра Snake
+
+<style>
+  #snakeGame {
+    display: inline-block;
+    background-color: #1a1a1a;
+    border: 3px solid #36BCF7;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(54, 188, 247, 0.5);
+  }
+  
+  #gameInfo {
+    color: #36BCF7;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  #gameStatus {
+    color: #00ff00;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .game-controls {
+    margin: 15px 0;
+    color: #36BCF7;
+    font-size: 14px;
+  }
+</style>
+
+<canvas id="snakeGame" width="400" height="400"></canvas>
+
+<div id="gameInfo">Score: <span id="score">0</span> | High Score: <span id="highScore">0</span></div>
+<div id="gameStatus">Нажмите SPACE для начала игры</div>
+<div class="game-controls">
+  <p>Управление: ↑ ↓ ← → или WASD</p>
+  <p>SPACE - начать/пауза | R - перезагрузить</p>
+</div>
+
+<script>
+  const canvas = document.getElementById('snakeGame');
+  const ctx = canvas.getContext('2d');
+  
+  const gridSize = 20;
+  const tileCount = canvas.width / gridSize;
+  
+  let snake = [{ x: 10, y: 10 }];
+  let food = { x: 15, y: 15 };
+  let direction = { x: 1, y: 0 };
+  let nextDirection = { x: 1, y: 0 };
+  let score = 0;
+  let highScore = localStorage.getItem('snakeHighScore') || 0;
+  let gameRunning = false;
+  let gamePaused = false;
+  let gameOver = false;
+  
+  document.getElementById('highScore').textContent = highScore;
+  
+  function generateFood() {
+    let newFood;
+    let foodOnSnake = true;
+    
+    while (foodOnSnake) {
+      newFood = {
+        x: Math.floor(Math.random() * tileCount),
+        y: Math.floor(Math.random() * tileCount)
+      };
+      
+      foodOnSnake = snake.some(segment => 
+        segment.x === newFood.x && segment.y === newFood.y
+      );
+    }
+    
+    return newFood;
+  }
+  
+  function update() {
+    if (!gameRunning || gamePaused || gameOver) return;
+    
+    direction = nextDirection;
+    
+    const head = { x: snake[0].x + direction.x, y: snake[0].y + direction.y };
+    
+    // Проверка столкновения со стеной
+    if (head.x < 0 || head.x >= tileCount || head.y < 0 || head.y >= tileCount) {
+      endGame();
+      return;
+    }
+    
+    // Проверка столкновения с собой
+    if (snake.some(segment => segment.x === head.x && segment.y === head.y)) {
+      endGame();
+      return;
+    }
+    
+    snake.unshift(head);
+    
+    // Проверка съедания еды
+    if (head.x === food.x && head.y === food.y) {
+      score += 10;
+      document.getElementById('score').textContent = score;
+      food = generateFood();
+    } else {
+      snake.pop();
+    }
+  }
+  
+  function draw() {
+    // Очистка канваса
+    ctx.fillStyle = '#1a1a1a';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Рисовани�� сетки
+    ctx.strokeStyle = '#333333';
+    ctx.lineWidth = 0.5;
+    for (let i = 0; i <= tileCount; i++) {
+      ctx.beginPath();
+      ctx.moveTo(i * gridSize, 0);
+      ctx.lineTo(i * gridSize, canvas.height);
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.moveTo(0, i * gridSize);
+      ctx.lineTo(canvas.width, i * gridSize);
+      ctx.stroke();
+    }
+    
+    // Рисование змеи
+    snake.forEach((segment, index) => {
+      if (index === 0) {
+        ctx.fillStyle = '#00ff00';
+      } else {
+        ctx.fillStyle = '#00cc00';
+      }
+      ctx.fillRect(
+        segment.x * gridSize + 1,
+        segment.y * gridSize + 1,
+        gridSize - 2,
+        gridSize - 2
+      );
+    });
+    
+    // Рисование еды
+    ctx.fillStyle = '#ff6b6b';
+    ctx.beginPath();
+    ctx.arc(
+      food.x * gridSize + gridSize / 2,
+      food.y * gridSize + gridSize / 2,
+      gridSize / 2 - 2,
+      0,
+      Math.PI * 2
+    );
+    ctx.fill();
+  }
+  
+  function gameLoop() {
+    update();
+    draw();
+    setTimeout(gameLoop, 100);
+  }
+  
+  function startGame() {
+    if (!gameRunning) {
+      gameRunning = true;
+      gamePaused = false;
+      gameOver = false;
+      document.getElementById('gameStatus').textContent = '▶ Игра запущена';
+      gameLoop();
+    }
+  }
+  
+  function togglePause() {
+    if (gameRunning) {
+      gamePaused = !gamePaused;
+      document.getElementById('gameStatus').textContent = gamePaused ? '⏸ Пауза' : '▶ Игра запущена';
+    }
+  }
+  
+  function endGame() {
+    gameRunning = false;
+    gameOver = true;
+    
+    if (score > highScore) {
+      highScore = score;
+      localStorage.setItem('snakeHighScore', highScore);
+      document.getElementById('highScore').textContent = highScore;
+      document.getElementById('gameStatus').textContent = `🎉 Игра окончена! Новый рекорд: ${score}!`;
+    } else {
+      document.getElementById('gameStatus').textContent = `💀 Игра окончена! Счёт: ${score}`;
+    }
+  }
+  
+  function resetGame() {
+    snake = [{ x: 10, y: 10 }];
+    direction = { x: 1, y: 0 };
+    nextDirection = { x: 1, y: 0 };
+    score = 0;
+    gameRunning = false;
+    gamePaused = false;
+    gameOver = false;
+    food = generateFood();
+    document.getElementById('score').textContent = '0';
+    document.getElementById('gameStatus').textContent = 'Нажмите SPACE для начала игры';
+    draw();
+  }
+  
+  document.addEventListener('keydown', (e) => {
+    switch(e.key.toUpperCase()) {
+      case ' ':
+        e.preventDefault();
+        if (gameOver) {
+          resetGame();
+        } else if (gameRunning) {
+          togglePause();
+        } else {
+          startGame();
+        }
+        break;
+      case 'R':
+        resetGame();
+        break;
+      case 'ARROWUP':
+      case 'W':
+        if (direction.y === 0) nextDirection = { x: 0, y: -1 };
+        e.preventDefault();
+        break;
+      case 'ARROWDOWN':
+      case 'S':
+        if (direction.y === 0) nextDirection = { x: 0, y: 1 };
+        e.preventDefault();
+        break;
+      case 'ARROWLEFT':
+      case 'A':
+        if (direction.x === 0) nextDirection = { x: -1, y: 0 };
+        e.preventDefault();
+        break;
+      case 'ARROWRIGHT':
+      case 'D':
+        if (direction.x === 0) nextDirection = { x: 1, y: 0 };
+        e.preventDefault();
+        break;
+    }
+  });
+  
+  // Инициализация
+  resetGame();
+</script>
+
+<br>
+
 ### 🐍 Мой вклад в GitHub
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" style="max-width: 100%;" />
 
