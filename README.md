@@ -115,7 +115,7 @@
 <a href="https://github.com/neveruslovu/game-trial">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight" alt="Game Trial" />
 </a>
-<p>Эксперименты в мире геймдева с Unity и C#.</p>
+<p>Эксперименты в мире геймдева с Pyagme и Python.</p>
 </div>
 </td>
 <td width="33%">
@@ -124,7 +124,7 @@
 <a href="https://github.com/neveruslovu/dog_dating_project">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight" alt="Dog Dating Project" />
 </a>
-<p>Уникальный платформер, где собаки находят свою любовь! 🐾</p>
+<p>Уникальный сайт, где собаки находят свою любовь! 🐾</p>
 </div>
 </td>
 </tr>
