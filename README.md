@@ -1,47 +1,47 @@
+# 🐶 Привет! Я Азимов Акмаль - QA Engineer & Future Developer 🚀
+
 <div align="center">
-  
-  <!-- Animated header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Азимов%20Акмаль&fontSize=90&animation=fadeIn&fontAlignY=38&desc=QA%20Engineer%20|%20Developer&descAlignY=51&descAlign=62" />
-  
-  <!-- Typing animation -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=435&lines=QA+Engineer+%F0%9F%94%8D;Tech+Support+Specialist+%F0%9F%92%BB;Future+Developer+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=600&lines=QA+Engineer+%F0%9F%94%8D+by+day;Developer+in+training+%F0%9F%9A%80+by+night;Bug+Hunter+%F0%9F%95%B5%EF%B8%8F+for+life;Turning+coffee+%E2%98%95+into+code+%F0%9F%92%BB)](https://git.io/typing-svg)
+
 </div>
 
-<!-- About section with gradient -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Обо мне
+## 🎯 Обо мне
 
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<div align="center">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Working on code">
+</div>
 
-- 🔭 Работал **тех. поддержкой в 3 компаниях**
-- 🌱 Сейчас изучаю **Postman, Git, C#, Unity, Docker**
-- 👯 Ищу возможности для **QA/Developer позиции**
-- 💬 Спрашивайте меня о **Python, PostgreSQL, Testing**
-- 📫 Связаться: **neveruslovu@mail.com**
-- ⚡ Fun fact: **Люблю автоматизировать рутинные процессы**
+Привет! Я - Азимов Акмаль, специалист по контролю качества с душой разработчика. Моя суперсила - находить баги там, где их никто не видит, и превращать рутинные процессы в автоматизированные шедевры. 🦸‍♂️
 
-<br clear="right"/>
+- 🔭 **Миссия**: Сделать цифровой мир лучше, один тест за раз
+- 🌱 **Сейчас в процессе**: Покоряю вершины Postman, Git, C#, Unity и Docker
+- 🎯 **Цель**: Трансформироваться из QA в Full-Stack Developer
+- 💬 **Спросите меня о**: Python, PostgreSQL, тестировании и как найти баг за 30 секунд
+- 📫 **Связаться**: neveruslovu@mail.com (не стесняйтесь, я не кусаюсь! 🐶)
+- ⚡ **Fun fact**: Однажды я автоматизировал настолько хорошо, что мой робот-пылесос начал писать тесты. Почти.
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Технический стек
+---
+
+## 🛠️ Мой арсенал технологий
 
 <div align="center">
 
-### 👨‍💻 Languages
+### 🎨 Языки программирования
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### 🧪 Testing
+### 🧪 Инструменты тестирования
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Unittest](https://img.shields.io/badge/Unittest-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-### 🛠️ Tools & Platforms
+### 🏗️ Инструменты и платформы
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -53,60 +53,88 @@
 
 </div>
 
-## 📊 GitHub статистика
+---
+
+## 📊 Моя статистика на GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=neveruslovu&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=neveruslovu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=neveruslovu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=neveruslovu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
+
+---
 
 ## 🚀 Мои проекты
 
 <div align="center">
-  
+
+### 🌐 [Личный сайт](https://github.com/neveruslovu/neveruslovu.github.io)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight)](https://github.com/neveruslovu/neveruslovu.github.io)
+Мой уголок в интернете, где я делюсь своими мыслями и проектами.
+
+### 🎮 [Game Trial](https://github.com/neveruslovu/game-trial)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight)](https://github.com/neveruslovu/game-trial)
+Эксперименты в мире геймдева с Unity и C#.
+
+### 🐕 [Dog Dating Project](https://github.com/neveruslovu/dog_dating_project)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight)](https://github.com/neveruslovu/dog_dating_project)
+Уникальный платформер, где собаки находят свою любовь! 🐾
+
 </div>
 
-## 🏆 GitHub трофеи
+---
+
+## 🏆 Достижения
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=neveruslovu&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophy" />
+<img src="https://github-profile-trophy.vercel.app/?username=neveruslovu&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophy" />
 </div>
 
-## 📈 Активность
+---
+
+## 📈 График активности
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=neveruslovu&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=neveruslovu&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
 </div>
 
-## 🌐 Языки
+---
+
+## 🌍 Языки
 
 <div align="center">
-  
-  ![Russian](https://img.shields.io/badge/Russian-Native-blue?style=for-the-badge)
-  ![English](https://img.shields.io/badge/English-B2+-green?style=for-the-badge)
-  
+
+![Russian](https://img.shields.io/badge/Russian-Native-blue?style=for-the-badge)
+![English](https://img.shields.io/badge/English-B2+-green?style=for-the-badge)
+
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
+
+## 📬 Давайте свяжемся!
 
 <div align="center">
-  
-### 📬 Свяжитесь со мной!
 
 [![Email](https://img.shields.io/badge/Email-neveruslovu@mail.com-red?style=for-the-badge&logo=gmail)](mailto:neveruslovu@mail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-@neveruslovu-blue?style=for-the-badge&logo=telegram)](https://t.me/neveruslovu)
+[![GitHub](https://img.shields.io/badge/GitHub-neveruslovu-black?style=for-the-badge&logo=github)](https://github.com/neveruslovu)
 
+</div>
+
+---
+
+<div align="center">
+
+### 🐍 Мой вклад в GitHub
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
-### ⭐ Если вам понравилось моё портфолио, не забудьте поставить звезду!
+### ⭐ Если вам понравилось моё портфолио, поставьте звездочку! 
+Звездочки питают моего кодового монстра и делают его сильнее! 🌟
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=150&section=footer)
 
 </div>
