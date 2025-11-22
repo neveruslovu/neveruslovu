@@ -18,24 +18,41 @@
 
 ### 🧙‍♂️ Краткая история
 
-Привет! Я - Азимов Акмаль, специалист по контролю качества с душой разработчика. Люблю находить баги там, где их никто не видит, и превращать рутинные процессы в автоматизированные процедуры. 🦸‍♂️
+Привет! Я — Азимов Акмаль, специалист по контролю качества с душой разработчика. Люблю находить баги там, где их никто не видит, и превращать рутину в автоматизацию. 🦸‍♂️
 
-- 🔭 **Миссия**: Стать лучше в своей сфере
-- 🌱 **Сейчас в процессе**: учу более глубоко инструменты тестирования и разработки
-- 🎯 **Цель**: Быть лучше каждый день
-- 💬 **Неплохо знаю**: Python, PostgreSQL, теорию тестирования
-- 📫 **Связаться**: neveruslovu@mail.com
+- 🔭 **Миссия**: Стать лучше в своей сфере  
+- 🌱 **Сейчас в процессе**: углубляю навыки тестирования и разработки  
+- 🎯 **Цель**: Развиваться каждый день  
+- 💬 **Знания**: Python, PostgreSQL, тестирование  
+- 📫 **Связаться**: neveruslovu@mail.com  
 
 </td>
 <td width="40%">
-
 <div align="center">
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2ZmM2RiYmEzNjY4YjRkNzI5ZjNkOTlmNjY3ZmU0N2JiZmM5ZjkxZCZjdD1n/3oKIPnAiaMCws8nOsE/giphy.gif" width="400" alt="Working on code">
 </div>
-
 </td>
 </tr>
 </table>
+
+---
+
+## 🧪 Опыт работы
+
+### 🔹 **QA Engineer — Фриланс / Пет-проекты (2023 — настоящее время)**  
+- Функциональное, регрессионное, интеграционное и API-тестирование  
+- Создание тестовой документации (тест-кейсы, чек-листы, баг-репорты)  
+- Тестирование backend, работа с PostgreSQL, написание SQL-запросов  
+- Автоматизация рутинных проверок на Python (unittest, requests, Selenium)  
+- Настройка CI для автотестов  
+- Работа с DevTools, логами, сетью, браузерным профилированием  
+- Использование Git, Docker, GitHub Actions в разработке и QA  
+
+### 🔹 **Junior QA Engineer — стажировки / учебные проекты**  
+- Разработка автотестов для Web-приложений  
+- Тестирование UI, UX, адаптивности и кроссбраузерности  
+- API-тестирование в Postman, создание коллекций  
+- Аналитика требований, формирование документации: Test Plan, Strategy  
 
 ---
 
@@ -65,30 +82,7 @@
 ![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-100000?style=for-the-badge&logo=django&logoColor=green)
-</div>
 
----
-
-## 📊 Моя статистика на GitHub
-
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-readme-stats.vercel.app/api?username=neveruslovu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</td>
-<td width="50%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=neveruslovu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=neveruslovu&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</div>
-</td>
-</tr>
-</table>
 </div>
 
 ---
@@ -105,27 +99,30 @@
 <a href="https://github.com/neveruslovu/neveruslovu.github.io">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight" alt="Personal Website" />
 </a>
-<p>Тестовый сайт на htmls\css.</p>
+<p>Тестовый сайт на HTML/CSS.</p>
 </div>
 </td>
+
 <td width="33%">
 <div align="center">
 <h3>🎮 Game Trial</h3>
 <a href="https://github.com/neveruslovu/game-trial">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=game-trial&theme=tokyonight" alt="Game Trial" />
 </a>
-<p>Эксперименты в геймдеве с Pyagme и Python.</p>
+<p>Эксперименты в геймдеве с Pygame и Python.</p>
 </div>
 </td>
+
 <td width="33%">
 <div align="center">
 <h3>🐕 Dog Dating</h3>
 <a href="https://github.com/neveruslovu/dog_dating_project">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight" alt="Dog Dating Project" />
 </a>
-<p> Небольшой лэндинг на django, python, html\css, JS, unittest + настроил CI  🐾</p>
+<p>Лэндинг на Django, Python, HTML/CSS, JS + автотесты и CI.</p>
 </div>
 </td>
+
 </tr>
 </table>
 
@@ -137,14 +134,6 @@
 
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=neveruslovu&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophy" />
-</div>
-
----
-
-## 📈 График активности
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=neveruslovu&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
 </div>
 
 ---
