@@ -105,7 +105,7 @@
 <a href="https://github.com/neveruslovu/neveruslovu.github.io">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=neveruslovu.github.io&theme=tokyonight" alt="Personal Website" />
 </a>
-<p>Тестовый сайт.</p>
+<p>Тестовый сайт на htmls\css.</p>
 </div>
 </td>
 <td width="33%">
@@ -123,7 +123,7 @@
 <a href="https://github.com/neveruslovu/dog_dating_project">
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=neveruslovu&repo=dog_dating_project&theme=tokyonight" alt="Dog Dating Project" />
 </a>
-<p> Небольшой лэндинг на django 🐾</p>
+<p> Небольшой лэндинг на django, python, html\css, JS, unittest + настроил CI  🐾</p>
 </div>
 </td>
 </tr>
