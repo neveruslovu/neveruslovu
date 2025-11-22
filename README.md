@@ -182,8 +182,7 @@
 ---
 
 <div align="center">
-
-### 🐍 Мой вклад в GitHub
+  
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ### ⭐ Если вам понравилось моё портфолио, поставьте звездочку!
