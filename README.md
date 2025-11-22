@@ -173,4 +173,21 @@
 
 <div align="center">
 
-[![Email](
+[![Email](https://img.shields.io/badge/Email-neveruslovu@mail.com-red?style=for-the-badge&logo=gmail)](mailto:neveruslovu@mail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@neveruslovu-blue?style=for-the-badge&logo=telegram)](https://t.me/neveruslovu)
+[![GitHub](https://img.shields.io/badge/GitHub-neveruslovu-black?style=for-the-badge&logo=github)](https://github.com/neveruslovu)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🐍 Мой вклад в GitHub
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
+### ⭐ Если вам понравилось моё портфолио, поставьте звездочку!
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer)
+
+</div>
